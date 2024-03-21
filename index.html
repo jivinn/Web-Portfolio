@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="/resources/title-logo.png" type="img">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>  
+        <header class="header">
+            <nav id="desktop-nav">
+                <div class="logo">Jib.dev</div>
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </div>
+             </nav>    
+            <nav id="hamburger-nav">
+                <div class="logo">Jib.dev</div>
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                 <div class="menu-links">
+                    <li><a href="#" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="#" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#" onclick="toggleMenu()">Contacts</a></li>  
+                 </div>   
+                </div>
+            </nav>    
+        </header>
+        <section id="home">
+            <div >
+                <img id="home-img" src="resources/profile.svg" alt="Jivin Java"> 
+            </div>
+            <div class="intro">
+                <p class="intro-text1">Hello -</p>
+                <h1 class="title">I'm <span>Jivin Java</span></h1>
+                <div class="intro-text2">Aspiring Fullstack Web Developer /<br> Software Engineer</div>
+                <div id="info">
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, assumenda non laboriosam tenetur autem quis porro necessitatibus illum accusantium! Saepe aut voluptas modi atque veniam quam error in maxime mollitia.</p> -->
+                </div>
+             <div id="homelinks">   
+                <div class="btn-container">
+                    <button class="btn btn-cv" onclick="window.open()">
+                        Download CV
+                    </button>
+                    <button class=" btn btn-contact" onclick="window.open()">
+                        Contact Info
+                    </button>
+                </div>
+                <div id="socials-container">
+                    <img src="./resources/facebook-icon.svg" alt="facebook" class="icon" onclick="window.open('https://www.facebook.com/jnjva', '_blank');" />
+                    <img src="./resources/linkedin-icon.svg" alt="linkedin" class="icon" onclick="window.open('https://www.linkedin.com/in/jivin-java-ba212229b/', '_blank');" />
+                    <img src="./resources/github-icon.svg" alt="github" class="icon" onclick="window.open('https://github.com/jivjava2203', '_blank');" 
+                    />
+                    <img src="./resources/gmail-icon.svg" alt="gmail" class="icon" onclick="window.open('https://mailto:jejava00168@usep.edu.ph', '_blank');" 
+                    />
+                </div>
+            </div>
+        </div>   
+        </section>
+        <section id="about">
+            <div class="about-title"><h1>About me</h1></div>
+        <div class="section-container"> 
+            <div class="about-details-container">
+                <div class="wrapper">
+                 <img id="about-img" src="resources/profile.svg" alt="Jivin Java">
+                <div class="about-container">
+                    <div class="details-container">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                        </svg>
+                        <h3>Experience</h3>
+                        <p>1+ years <br> Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                        </svg>
+                        <h3>Education</h3>
+                        <p>2nd Year <br> BSIT Undergraduate</p>
+                    </div>
+                </div> 
+            </div>
+                    <div class="text-cont">
+                        <p>As a 20-year-old tech enthusiast with a keen eye for detail. I believe in taking the time to appreciate the beauty in everyday life, whether it's admiring the intricate patterns in nature or soaking up the thrill of a good competition. Always eager to learn and connect with others, I strive to make the most out of every experience and opportunity that comes my way.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <section id="experience">
+                <div class="experience-container">
+                    <!-- <h1 id="exp-title">Projects</h1> -->
+                    <div class="experience-details-container">
+                        <h3>Tech-stack</h3>
+                        <div class="techstack"> 
+                            <div id="tshtml">
+                                <div class="techstack-img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="68" height="68" viewBox="0 0 48 48">
+                                        <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
+                                        </svg>
+                                        <div class="techstack-details">
+                                            <p class="p1">HTML</p> <p class="p2">Basic</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div id="tscss">
+                                <div class="techstack-img">
+                                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="68" height="68" viewBox="0 0 48 48">
+                                        <linearGradient id="TQDriqswrKwPOniLrPT12a_7gdY5qNXaKC0_gr1" x1="16.33" x2="32.293" y1="-2.748" y2="41.109" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2aa4f4"></stop><stop offset="1" stop-color="#007ad9"></stop></linearGradient><path fill="url(#TQDriqswrKwPOniLrPT12a_7gdY5qNXaKC0_gr1)" d="M7.192,7.176l2.627,29.77c0.109,1.237,0.97,2.28,2.164,2.621l10.643,3.041	c0.898,0.257,1.849,0.257,2.747,0l10.643-3.041c1.194-0.341,2.055-1.383,2.164-2.621l2.627-29.77C40.911,6.006,39.99,5,38.816,5	H9.184C8.01,5,7.089,6.006,7.192,7.176z"></path><path fill="#35c1f1" d="M24,8v31.9l9.876-2.822c0.797-0.228,1.371-0.924,1.443-1.749l2.286-26.242	C37.656,8.502,37.196,8,36.609,8H24z"></path><path fill="#fff" d="M33.1,13H24v4h4.9l-0.3,4H24v4h4.4l-0.3,4.5L24,30.9v4.2l7.9-2.6L32.6,21l0,0L33.1,13z"></path><path fill="#d6e0e9" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4	L19.8,27z"></path><path d="M33.1,13l-0.5,8l-0.7,11.5L24,35.1l-7.9-2.6L15.8,27h4l0.1,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-4.4l-0.2-4H24h4.6l0.3-4H24 h-8.9l-0.3-4H24H33.1 M34.164,12H33.1H24h-9.2h-1.078l0.081,1.075l0.3,4L14.172,18H15.1H24h3.822l-0.15,2H24h-4.6h-1.051 l0.052,1.05l0.2,4L18.649,26H15.8h-1.056l0.058,1.054l0.3,5.5l0.037,0.682l0.649,0.214l7.9,2.6L24,36.153l0.313-0.103l7.9-2.6 l0.644-0.212l0.041-0.677l0.7-11.5l0.5-7.998L34.164,12L34.164,12z M20.761,26H24h3.331l-0.185,2.769L24,29.843l-3.128-1.068 l-0.073-1.815L20.761,26L20.761,26z" opacity=".05"></path><path d="M33.1,13l-0.5,8l-0.7,11.5L24,35.1l-7.9-2.6L15.8,27h4l0.1,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-4.4l-0.2-4H24h4.6l0.3-4H24 h-8.9l-0.3-4H24H33.1 M33.632,12.5H33.1H24h-9.2h-0.539l0.04,0.537l0.3,4l0.035,0.463H15.1H24h4.361l-0.225,3H24h-4.6h-0.526 l0.026,0.525l0.2,4l0.024,0.475H19.6H24h3.866l-0.242,3.634L24,30.372l-3.614-1.234L20.3,26.98L20.28,26.5H19.8h-4h-0.528 l0.029,0.527l0.3,5.5l0.019,0.341l0.324,0.107l7.9,2.6L24,35.626l0.156-0.051l7.9-2.6l0.322-0.106l0.021-0.339l0.7-11.5l0.5-7.999 L33.632,12.5L33.632,12.5z" opacity=".07"></path>
+                                        </svg>
+                                        <div class="techstack-details">
+                                            <p class="p1">CSS</p> <p class="p2">Basic</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            <div id="tsjava">
+                                <div class="techstack-img">
+                                     <svg width="68px" height="68px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0497 8.44062C22.6378 3.32607 19.2566 0 19.2566 0C19.7598 5.28738 13.813 6.53583 12.2189 10.1692C11.1312 12.6485 12.9638 14.8193 16.0475 17.5554C15.7749 16.9494 15.3544 16.3606 14.9288 15.7645C13.4769 13.7313 11.9645 11.6132 16.0497 8.44062Z" fill="#E76F00"></path> <path d="M17.1015 18.677C17.1015 18.677 19.0835 17.0779 17.5139 15.3008C12.1931 9.27186 23.3333 6.53583 23.3333 6.53583C16.5317 9.8125 17.5471 11.7574 19.2567 14.1202C21.0871 16.6538 17.1015 18.677 17.1015 18.677Z" fill="#E76F00"></path> <path d="M22.937 23.4456C29.0423 20.3258 26.2195 17.3278 24.2492 17.7317C23.7662 17.8305 23.5509 17.9162 23.5509 17.9162C23.5509 17.9162 23.7302 17.64 24.0726 17.5204C27.9705 16.1729 30.9682 21.4949 22.8143 23.6028C22.8143 23.6029 22.9088 23.5198 22.937 23.4456Z" fill="#5382A1"></path> <path d="M10.233 19.4969C6.41312 18.9953 12.3275 17.6139 12.3275 17.6139C12.3275 17.6139 10.0307 17.4616 7.20592 18.8043C3.86577 20.3932 15.4681 21.1158 21.474 19.5625C22.0984 19.1432 22.9614 18.7798 22.9614 18.7798C22.9614 18.7798 20.5037 19.2114 18.0561 19.4145C15.0612 19.6612 11.8459 19.7093 10.233 19.4969Z" fill="#5382A1"></path> <path d="M11.6864 22.4758C9.55624 22.2592 10.951 21.2439 10.951 21.2439C5.43898 23.0429 14.0178 25.083 21.7199 22.8682C20.9012 22.5844 20.3806 22.0653 20.3806 22.0653C16.6163 22.7781 14.441 22.7553 11.6864 22.4758Z" fill="#5382A1"></path> <path d="M12.6145 25.6991C10.486 25.4585 11.7295 24.7474 11.7295 24.7474C6.72594 26.1222 14.7729 28.9625 21.1433 26.2777C20.0999 25.8787 19.3528 25.4181 19.3528 25.4181C16.5111 25.9469 15.1931 25.9884 12.6145 25.6991Z" fill="#5382A1"></path> <path d="M25.9387 27.3388C25.9387 27.3388 26.8589 28.0844 24.9252 28.6612C21.2481 29.7566 9.62093 30.0874 6.39094 28.7049C5.22984 28.2082 7.40723 27.5189 8.09215 27.3742C8.80646 27.2219 9.21466 27.2503 9.21466 27.2503C7.9234 26.3558 0.868489 29.0067 5.63111 29.7659C18.6195 31.8372 29.3077 28.8331 25.9387 27.3388Z" fill="#5382A1"></path> <path d="M28 28.9679C27.7869 31.6947 18.7877 32.2683 12.9274 31.8994C9.10432 31.6583 8.33812 31.0558 8.32691 31.047C11.9859 31.6402 18.1549 31.7482 23.1568 30.8225C27.5903 30.0016 28 28.9679 28 28.9679Z" fill="#5382A1"></path> </g></svg>
+                                                <div class="techstack-details">
+                                                    <p class="p1">JAVA</p> <p class="p2">Basic</p>
+                                                    </div>
+                                                </div>
+                                            </div>   
+                            <div id="tsjs">
+                                <div class="techstack-img">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="68" viewBox="0 0 48 48">
+                                        <path fill="#f7df1e" d="M6,42V6h36v36H6z"></path><path fill="#000001" d="M29.538,32.947c0.692,1.124,1.444,2.201,3.037,2.201c1.338,0,2.04-0.665,2.04-1.585 c0-1.101-0.726-1.492-2.198-2.133l-0.807-0.344c-2.329-0.988-3.878-2.226-3.878-4.841c0-2.41,1.845-4.244,4.728-4.244 c2.053,0,3.528,0.711,4.592,2.573l-2.514,1.607c-0.553-0.988-1.151-1.377-2.078-1.377c-0.946,0-1.545,0.597-1.545,1.377 c0,0.964,0.6,1.354,1.985,1.951l0.807,0.344C36.452,29.645,38,30.839,38,33.523C38,36.415,35.716,38,32.65,38 c-2.999,0-4.702-1.505-5.65-3.368L29.538,32.947z M17.952,33.029c0.506,0.906,1.275,1.603,2.381,1.603 c1.058,0,1.667-0.418,1.667-2.043V22h3.333v11.101c0,3.367-1.953,4.899-4.805,4.899c-2.577,0-4.437-1.746-5.195-3.368 L17.952,33.029z"></path>
+                                        </svg>
+                                    <div class="techstack-details">
+                                        <p class="p1">JAVASCRIPT</p>
+                                        <p class="p2">Basic</p>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </section>   
+        </section> 
+        <section id="projects">
+            <h1 class="projects-title">Projects</h1>
+            <div class="project-details-container">
+            <div class="projects-container">
+                <div class="proj">
+                    <div class="project-img"> <img src="resources/img-placeholder.png" alt="">
+                        <div class="proj-details-title">
+                        <h3><a href="https://riffrant.vercel.app/s" alt="visit page">Project 1<br></a><span></span></h3><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos nulla rerum itaque ratione a quas velit debitis ipsum voluptates, nihil nesciunt quo aut, veritatis ipsam in possimus ex quam. Laboriosam.</p></div>
+                    </div>
+                </div>
+                <div class="proj">
+                    <div class="project-img"> <img src="resources/img-placeholder.png" alt="">
+                        <div class="proj-details-title">
+                        <h3><a href="https://riffrant.vercel.app/s" alt="visit page">Project 2<br></a></h3><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos nulla rerum itaque ratione a quas velit debitis ipsum voluptates, nihil nesciunt quo aut, veritatis ipsam in possimus ex quam. Laboriosam.</p>
+                        <!-- <button class="visit-repo"> <img src="resources/github-icon.svg" alt="">Github Repository
+                        </button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section id="contact">
+            <h1 class="contact-title">Contact Me</h1>
+            <div class="contact-container">
+                <h3>Reach out to me!</h3>
+                <div id="form">
+                    <form action="#">
+                        <div id="input-box">
+                        <div id="email">
+                        <label class="label" for="email">Email:
+                        </label>
+                        <input id="email-input" type="text" name="email" placeholder="your@email.com">
+                        </div>
+                        <br>
+                        <div id="message">
+                            <label class="label" for="message">Message:
+                            </label>
+                            <input id="message-input" type="text" name="message">
+                         </div>
+                        
+                        <div class="send">
+                            <input id="send-button" type="submit" name="submit-button" value="SEND">
+                        </div>
+                    </div>
+                    </form>
+                </div>
+                <div id="contacts-socials">
+                    <img src="./resources/facebook-icon.svg" alt="facebook" class="icon" onclick="window.open('https://www.facebook.com/jnjva', '_blank');" />
+                    <img src="./resources/linkedin-icon.svg" alt="linkedin" class="icon" onclick="window.open('https://www.linkedin.com/in/jivin-java-ba212229b/', '_blank');" />
+                    <img src="./resources/github-icon.svg" alt="github" class="icon" onclick="window.open('https://github.com/jivjava2203', '_blank');" 
+                    />
+                    <img src="./resources/gmail-icon.svg" alt="gmail" class="icon" onclick="window.open('https://mailto:jejava00168@usep.edu.ph', '_blank');" 
+                    />
+                </div>
+            </div>
+        </section>
+   <footer id="footer">
+    <h3>&copy Jivin Java | 2024
+    </h3>
+   </footer>
+    <script src="script.js"></script>
+</body>
+</html>
