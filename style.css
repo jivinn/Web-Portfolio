@@ -47,6 +47,16 @@ nav, .nav-links {
     font-size: 1.5rem;
 }
 
+#contact-nav {
+
+    padding: 1px 3px 1px 3px;
+    border: #00abf0 2px solid;
+    border-radius: 8px;
+    background-color: #00abf0;
+}
+
+
+
 a {
     color: white;
     text-decoration: none;  
@@ -54,6 +64,10 @@ a {
 
 a:hover {
     color: #00abf0;
+}
+
+#contact-nav:hover {
+    background-color: #081b29;
 }
 
 .logo {
@@ -592,10 +606,11 @@ nav {
     padding-left: 5px;
 }
 
-.contact-container > #contacts-socials{
+footer #contacts-socials{
     display: flex;
-    gap: 12px;
+    gap: 15px;
     justify-content: center;
+    padding: 5px;
 }
 
 
@@ -603,6 +618,7 @@ nav {
     background-color: rgb(9,54,88);
     color: white;
     text-align: center;
+    padding-top: 10px;
     padding: 5px;
 }
 
